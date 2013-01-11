@@ -1,0 +1,254 @@
+/*
+Theme Name:     GreenScreen (Twenty Twelve Child)
+Theme URI:      http://byronlevene.net/greenscreen/
+Description:    Changes TwentyTwelve to look like and old school computer (inb progress) 
+Author:         Byron Levene
+Author URI:     http://byronlevene.net/
+Template:       twentytwelve
+Version:        0.1.7
+*/
+
+@import url("../twentytwelve/style.css");
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+font-family: Courier, Courier New;
+color:#6F0;
+}
+
+body.custom-background {
+  background-color:#000;	
+}
+
+.site-title {
+	text-align:justify;
+	text-transform:uppercase;	
+}
+
+.site-header h1 a, .site-header h2  {
+	color:#6F0;
+}
+
+.comments-link a, .entry-meta a {
+color:#9F3;
+font-weight:bold;
+}
+
+#page {
+	background-color:#000;
+		
+}
+
+.archive-header, .page-header {
+border-bottom: 2px dotted #6F0;	
+}
+
+.entry-header .entry-title {
+	font-weight:bold;
+}
+
+.widget-area .widget a {
+color:#6F0;
+font-weight:bold;
+}
+
+.site-content article {
+border-bottom: 2px dotted #6F0;	
+}
+
+footer.entry-meta {
+	color:#6F0;
+}
+
+.pluginSkinDark {
+color:#6F0;
+font-family: Courier, Courier New;
+}
+
+.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+color:#6F0;
+}
+
+/* NAVIGATION STYLES */
+
+.main-navigation a {
+padding-left:10px;
+padding-right:10px;
+color:#6F0;
+}
+
+.main-navigation li {
+color:#6F0;
+}
+
+.main-navigation li a {
+color:#6F0;
+}
+
+.main-navigation li ul li a:hover {
+background-color:#6F0;		
+border-bottom: 1px solid #390;
+}
+
+.main-navigation li ul li a {
+background-color:#390;
+border-bottom: 1px solid #6F0;
+}
+
+.main-navigation li:hover {
+background-color:#390;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+border-top:2px dotted #6F0;
+border-bottom:2px dotted #6F0;
+}
+
+blockquote {
+background-color:#160;
+color:#000;
+}
+
+.author-info {
+border-top: 1px solid #390;
+}
+
+.author-description p {
+color:#6F0;
+}
+
+.author-description a {
+font-weight:bold;
+}
+
+h3.widget-title {
+color:#6F0;
+font-size:14pt;
+}
+
+.comments-link {
+color:#6F0;
+text-align:right;
+}
+
+footer[role="contentinfo"] {
+border-top:2px dotted #6F0;
+}
+
+footer[role="contentinfo"] a {
+color:#6F0;
+text-align:right;
+}
+
+.widget_recent_entries .post-date, .widget_rss .rss-date {
+color:#6F0;
+text-align:right;
+}
+
+input {
+background-color: #390;
+color: #6F0;
+}
+
+button, input, textarea {
+background-color: #390;
+}
+
+/* TABLE STYLES */
+
+.entry-content table, .comment-content table {
+background:#030;
+border-color:#6F0;
+border:1px solid #6F0;
+}
+
+
+.menu-toggle, input[type="submit"], input[type="button"], input[type="reset"], article.post-password-required input[type="submit"], li.bypostauthor cite span {
+background-color: #390;
+color: #6F0;
+background-repeat: repeat-x;
+background-image: -moz-linear-gradient(top, #6F0, #390);
+background-image: -ms-linear-gradient(top, #6F0, #390);
+background-image: -webkit-linear-gradient(top,#6F0, #390);
+background-image: -o-linear-gradient(top, #6F0, #390);
+background-image: linear-gradient(top, #6F0, #390);
+border: 1px solid #390;
+border-radius: 3px;
+
+}
+
+.menu-toggle:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, article.post-password-required input[type="submit"]:hover {
+background-color: #690;
+color: #6F3;
+background-repeat: repeat-x;
+background-image: -moz-linear-gradient(top, #6F3, #690);
+background-image: -ms-linear-gradient(top, #6F3, #690);
+background-image: -webkit-linear-gradient(top,#6F3, #690);
+background-image: -o-linear-gradient(top, #6F3, #690);
+background-image: linear-gradient(top, #6F3, #690);
+border: 1px solid #390;
+border-radius: 3px;
+
+}
+
+#post-0 .widget-area {
+width:auto;
+float:none;
+}
+
+/* SCRIBD STYLES */
+.autogen_class_views_embeds_content #toolbar {
+color:#6F0;
+font-family: Courier, Courier New;
+}
+
+/* DIQUS STYLES */
+
+.dsq-textarea-background {
+background: #390;
+display:!important;
+color:#6F0;
+}
+
+.dsq-post-tools {
+background-color:#6F0;
+color:#000;
+}
+
+button.dsq-button, button.dsq-button-small {
+background-color:#6F0;
+color:#000;
+}
+
+#dsq-content .dsq-toolbar-label {
+font-family: Courier, Courier New;
+background-color:#6F0;
+color:#000;
+}
+
+#dsq-sort-by select {
+background: #390;
+}
+
+/* GOOGLE CALENDAR STYLES */
+
+.calendar-container {
+font-family: Courier, Courier New;
+display:!important;
+}
+
+element.style {
+font-family: Courier, Courier New;
+background-color:#6F0;
+color:#000;
+display:!important;
+}
+
+.mv-event-container {
+background-color:#360;
+}
+.st-bg-today, .st-bg-td-first {
+font-family: Courier, Courier New;
+background-color:#6F0;
+color:#000;
+display:!important;
+}
