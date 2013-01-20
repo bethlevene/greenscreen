@@ -250,8 +250,19 @@ button.dsq-button, button.dsq-button-small {
 	color:#000;
 }
 
-#dsq-sort-by select {
+##dsq-sort-by select {
 	background: #390;
+	font-family: Courier, Courier New;
+  	color: #6f0;
+}
+
+/* AMAZON ASTORE STYLES */
+
+select.searchwidget {
+	background: #390;
+	font-family: Courier, Courier New;
+  	color: #6f0;
+
 }
 
 /* GOOGLE CALENDAR STYLES */
