@@ -5,13 +5,13 @@ Description:    Changes TwentyTwelve to look like and old school computer (in pr
 Author:         Byron Levene
 Author URI:     http://byronlevene.net/
 Template:       twentytwelve
-Version:        0.2.0
+Version:        0.2.4
 */
 
 @import url("../twentytwelve/style.css");
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono|Orbitron);
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  font-family: Courier, Courier New;
   color:#6F0;
 }
 
@@ -20,9 +20,15 @@ body.custom-background {
   
 }
 
+body.site {
+ border:none;
+ box-shadow: 0;
+}
+
 .site-title {
   text-align:justify;
   text-transform:uppercase;
+  font-family: 'Orbitron';
   
 }
 
@@ -52,11 +58,7 @@ a:hover {
 
 .entry-header .entry-title {
   font-weight:bold;
-}
-
-.widget-area .widget a {
-  color:#6F0;
-  font-weight:bold;
+  font-family: 'Orbitron';
 }
 
 .site-content article {
@@ -83,6 +85,7 @@ footer.entry-meta {
   padding-left:10px;
   padding-right:10px;
   color:#6F0;
+  font-family: 'Orbitron';
 }
 
 .main-navigation li {
@@ -173,6 +176,19 @@ button, input, textarea {
   border: 1px solid #6F0;
 }
 
+.archive-meta {
+  background-color:#160;
+  color:#000;
+  border-radius:50px;
+}
+
+.archive-meta p {
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:10px;
+margin-bottom:10px;
+}
+
 /* TABLE STYLES */
 
 .entry-content table, .comment-content table {
@@ -213,6 +229,16 @@ button, input, textarea {
 
 /* WIDGET AREA STYLES */
 
+.widget-title {
+  font-family: 'Orbitron';
+	}
+
+.widget-area .widget a {
+  color:#6F0;
+  font-weight:bold;
+  
+}
+
 .widget-area .widget a:hover {
   background-color:#390;
   color:#000;
@@ -238,24 +264,19 @@ border-radius: 15px;
 
 /* BACKEND AND DASHBOARD STYLES */
 
-body.login {}
-body.login div#login {}
-body.login div#login h1 {}
-body.login div#login h1 a {}
-body.login div#login form#loginform {}
-body.login div#login form#loginform p {}
-body.login div#login form#loginform p label {}
-body.login div#login form#loginform input {}
-body.login div#login form#loginform input#user_login {}
-body.login div#login form#loginform input#user_pass {}
-body.login div#login form#loginform p.forgetmenot {}
-body.login div#login form#loginform p.forgetmenot input#rememberme {}
-body.login div#login form#loginform p.submit {}
-body.login div#login form#loginform p.submit input#wp-submit {}
-body.login div#login p#nav {}
-body.login div#login p#nav a {}
-body.login div#login p#backtoblog {}
-body.login div#login p#backtoblog a {}
+body.login {
+  background-color:#000;
+  
+}
+
+#wpbody-content {
+  background:#000;
+}
+
+#adminmenu * {
+  background-color:#360;
+  
+}
 
 /* SCRIBD STYLES */
 .autogen_class_views_embeds_content #toolbar {
@@ -329,6 +350,13 @@ button.dsq-button, button.dsq-button-small {
 }
 
 
+/* FACEBOOK JS STYLES */
+
+.fbConnectWidgetContent {
+  font-family: Courier, Courier New;
+  color: #6f0;
+  }
+
 /* AMAZON ASTORE STYLES */
 
 select {
@@ -343,40 +371,9 @@ select.searchwidget {
   color: #6f0;
 }
 
-/* GOOGLE CALENDAR STYLES */
+/* HTML ELEMENTS */
 
-#calendarDiv #calendarTitle {
-  background-color:#6F0;
-  !important;
-  font-family: Courier, Courier New;
-  !important;
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Orbitron'; 
 }
 
-.calendar-container {
-  font-family: Courier, Courier New;
-  !important;
-  
-}
-
-element.style {
-  font-family: Courier, Courier New;
-  !important;
-  background-color:#6F0;
-  !important;
-  color:#000;
-  !important;
-  
-}
-
-.mv-event-container {
-  background-color:#360;
-  !important;
-}
-.st-bg-today, .st-bg-td-first {
-  font-family: Courier, Courier New;
-  !important;
-  background-color:#6F0;
-  !important;
-  color:#000;
-  !important;
-}
