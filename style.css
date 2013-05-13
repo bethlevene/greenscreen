@@ -5,7 +5,7 @@ Description:    Changes TwentyTwelve to look like and old school computer (in pr
 Author:         Byron Levene
 Author URI:     http://byronlevene.net/
 Template:       twentytwelve
-Version:        0.2.4
+Version:        0.2.6
 */
 
 @import url("../twentytwelve/style.css");
@@ -78,6 +78,15 @@ footer.entry-meta {
 .archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
   color:#6F0;
 }
+
+.entry-content pre, .comment-content pre {
+	border:none;
+	color:#6F0;
+	}
+	
+.url-small {
+	    font-size:8pt;
+		}
 
 /* NAVIGATION STYLES */
 
