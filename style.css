@@ -20,9 +20,13 @@ body.custom-background {
   
 }
 
-body.site {
- border:none;
- box-shadow: 0;
+body .site {
+margin-top: 48px;
+margin-top: 3.428571429rem;
+margin-bottom: 48px;
+margin-bottom: 3.428571429rem;
+box-shadow: 0 30px 300px rgba(0, 255, 66, 0.5);
+border-radius: 60px;
 }
 
 .site-title {
@@ -31,6 +35,7 @@ body.site {
   font-family: 'Orbitron';
   
 }
+	
 
 .site-header h1 a, .site-header h2  {
   color:#6F0;
@@ -46,7 +51,10 @@ body.site {
   
 }
 
-
+.required {
+color: #9f0;
+  }
+  
 a:hover {
   color:#390;
 }
@@ -125,6 +133,13 @@ footer.entry-meta {
   border-bottom:2px dotted #6F0;
 }
 
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
+font-size:120%;
+font-weight: bold;
+  color:#9f0;
+
+}
+
 blockquote {
   background-color:#160;
   color:#000;
@@ -183,6 +198,8 @@ input {
 button, input, textarea {
   background-color: #390;
   border: 1px solid #6F0;
+  border-radius: 30px;
+font-family: 'Orbitron';
 }
 
 .archive-meta {
@@ -216,8 +233,8 @@ margin-bottom:10px;
   background-image: -webkit-linear-gradient(top,#6F0, #390);
   background-image: -o-linear-gradient(top, #6F0, #390);
   background-image: linear-gradient(top, #6F0, #390);
-  border: 1px solid #390;
-  border-radius: 3px;
+  border: 1px solid #6f0;
+  border-radius: 30px;
   
 }
 
@@ -225,13 +242,13 @@ margin-bottom:10px;
   background-color: #690;
   color: #6F3;
   background-repeat: repeat-x;
-  background-image: -moz-linear-gradient(top, #6F3, #690);
-  background-image: -ms-linear-gradient(top, #6F3, #690);
-  background-image: -webkit-linear-gradient(top,#6F3, #690);
-  background-image: -o-linear-gradient(top, #6F3, #690);
-  background-image: linear-gradient(top, #6F3, #690);
-  border: 1px solid #390;
-  border-radius: 3px;
+  background-image: -moz-linear-gradient(top, #6F0, #690);
+  background-image: -ms-linear-gradient(top, #6F0, #690);
+  background-image: -webkit-linear-gradient(top,#6F0, #690);
+  background-image: -o-linear-gradient(top, #6F0, #690);
+  background-image: linear-gradient(top, #6F0, #690);
+  border: 1px solid #6f0;
+  border-radius: 30px;
   
 }
 
