@@ -1,11 +1,11 @@
 /*
-Theme Name:     GreenScreen (Twenty Twelve Child)
-Theme URI:      http://byronlevene.net/greenscreen/
+Theme Name:     GreenScreen - a Twenty Twelve Child
+Theme URI:      http://byronlevene.net/wordpress/greenscreen/
 Description:    Changes TwentyTwelve to look like and old school computer (in progress) 
 Author:         Byron Levene
 Author URI:     http://byronlevene.net/
 Template:       twentytwelve
-Version:        0.2.6
+Version:        0.2.7
 */
 
 @import url("../twentytwelve/style.css");
@@ -19,6 +19,12 @@ body.custom-background {
   background-color:#000;
   
 }
+
+/* praise_rss styles */
+
+.pubDate {
+  font-size:8pt;
+  }
 
 body .site {
 margin-top: 48px;
@@ -96,6 +102,27 @@ footer.entry-meta {
 	    font-size:8pt;
 		}
 
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+position:absolute;
+left: 20px;
+
+}
+
 /* NAVIGATION STYLES */
 
 .main-navigation a {
@@ -129,7 +156,7 @@ footer.entry-meta {
 }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
-  border-top:2px dotted #6F0;
+  border-top:2px dotted #6F0; 
   border-bottom:2px dotted #6F0;
 }
 
@@ -217,10 +244,12 @@ margin-bottom:10px;
 
 /* TABLE STYLES */
 
+
+
 .entry-content table, .comment-content table {
   background:#030;
   border-color:#6F0;
-  border:1px solid #6F0;
+
 }
 
 
@@ -250,6 +279,18 @@ margin-bottom:10px;
   border: 1px solid #6f0;
   border-radius: 30px;
   
+}
+
+.resumeTable {
+    border-top: 0px solid #6f3;
+    border-radius: 30px;
+  }
+
+.resumeTable td {
+  color: #6F3;
+  border-top: 0px solid #6f3;
+  padding:15px;
+
 }
 
 
